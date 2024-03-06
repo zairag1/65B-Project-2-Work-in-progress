@@ -4,18 +4,18 @@
 }
 
 @font-face {
-    font-family: bebas;
     src: url("../fonts/bebas-neue/BebasNeue-Regular.ttf");
+    font-family: bebas;
   }
 
 @font-face {
-    font-family: radiobold;
     src: url("../fonts/radio-space/radiospacebold.ttf");
+    font-family: radiobold;
   }
 
   @font-face {
-    font-family: radioexpand;
     src: url("../fonts/radio-space/radiospaceexpand.ttf");
+    font-family: radioexpand;
   }
 
 body{
