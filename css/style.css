@@ -18,6 +18,67 @@
     font-family: radioexpand;
   }
 
+#home-screen{
+  color: ghostwhite;
+}
+
+#phrases{
+  font-family: bebas;
+  font-size: 25px;
+}
+
+#what{
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  font-size: 30px;
+}
+
+#draw{
+  position: absolute;
+  bottom: 100px;
+  right: 200px;
+  font-size: 30px;
+}
+
+#paint{
+  position: absolute;
+  top: 160px;
+  right: 50px;
+  font-size: 45px;
+}
+
+#good{
+  position: absolute;
+  bottom: 170px;
+  left: 170px;
+  font-size: 40px;
+}
+
+#want{
+  position: absolute;
+  top: 200px;
+  right: 400px;
+  font-size: 50px;
+  color: gold;
+}
+
+#some{
+  position: absolute;
+  top: 300px;
+  right: 300px;
+  font-size: 60px;
+  color: gold;
+}
+
+#tips{
+  position: absolute;
+  top: 400px;
+  right: 200px;
+  font-size: 70px;
+  color: gold;
+}
+
 body{
     width: 100vw;
     height: 100vh;
@@ -29,6 +90,15 @@ body{
   color: ghostwhite;
   font-family: bebas;
   margin-top: 20px;
+  animation: slide 20s infinite;
+}
+
+#clickcircle{
+  color: ghostwhite;
+  font-family: bebas;
+  position: absolute;
+  bottom: 10px;
+  right: 70px;
   animation: slide 20s infinite;
 }
 
@@ -50,15 +120,15 @@ body{
     font-size: 60px;
 }
 
-#secret{
-    color: ghostwhite;
+#tellyousecret{
+    color: red;
     position: absolute;
-    bottom: 35px;
+    bottom: 25px;
     display: block;
     text-align: center;
     width: 100%;
     font-family: bebas;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 #change-bg-color{
@@ -66,6 +136,118 @@ body{
     margin-top: 3%;
 }
 
+#coloredbackground{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: .4;
+}
+
+#sun{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 140px;
+  left: 470px;
+  animation: fullround 10s infinite;
+}
+
+#secondpage{
+  color: white;
+}
+
+#always{
+  font-family: radioexpand;
+  font-size: 65px;
+  position: absolute;
+  top: 50px;
+  left: 60px;
+  color: #F7C223;
+}
+
+#secondphrases{
+  font-family: bebas;
+  font-size: 25px;
+}
+
+#hair{
+  position: absolute;
+  top: 300px;
+  right: 100px;
+  color: #79B1E7;
+}
+
+#notjust{
+  position: absolute;
+  top: 250px;
+  left: 80px;
+  color: lightsteelblue;
+  font-size: 25px;
+}
+
+#expression{
+  position: absolute;
+  top: 350px;
+  left: 106px;
+  color: lightsteelblue;
+  font-size: 35px;
+}
+
+#identity{
+  position: absolute;
+  top: 450px;
+  left: 90px;
+  color: lightsteelblue;
+  font-size: 45px;
+}
+
+#unique{
+  position: absolute;
+  bottom: 20px;
+  left: 210px;
+  color: #F8DE93;
+  font-size: 50px;
+}
+
+#galaxy{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: lightskyblue;
+  font-size: 25px;
+  animation: slide 20s infinite;
+}
+
+#master{
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  color: lightblue;
+  font-size: 17px;
+  animation: slide 20s 5s infinite;
+}
+
+#restart{
+  height:20px;
+  width: 20px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  position:absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+#clickrestart{
+  color: white;
+  font-size: 10px;
+  font-family: bebas;
+  position: absolute;
+  bottom: 5px;
+  left: 16px;
+}
 
 @keyframes rotate{
   0%{
@@ -85,5 +267,11 @@ body{
   }
   100%{
     margin-right: 1000px;
+  }
+}
+
+@keyframes fullround{
+  0%{
+    transform: rotate(360deg)
   }
 }

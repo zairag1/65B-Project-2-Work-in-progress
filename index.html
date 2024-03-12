@@ -13,7 +13,12 @@
 <body>
 
     <!-- a parent div to act as the container for all elements -->
+
     <div id="home-screen">
+
+        <audio id="musicplayer" autoplay>
+            <source src="media/audio/shrine-tranquilium-main-version-30913-03-31.mp3" />
+          </audio>
 
         <h3 id="mark">click the question mark</h3>
 
@@ -21,11 +26,44 @@
             DO YOU WANT TO BE CREATIVE <span id="question">?</span> 
         </h1>
            
-        <h1 id="secret">let me tell you a secret </h1> 
+        <h1 id="tellyousecret">let me tell you a <span id="secret">secret</span></h1> 
 
         <img id="swirl" src="media/images/swirl.PNG">
 
+        <div id="phrases">
+            <h3 id="what">do you practice creativity?</h3>
+            <h3 id="draw">do you draw?</h3>
+            <h3 id="paint">or do you paint?</h3>
+            <h3 id="good">are you good at it?</h3>
+            <h3 id="want">want</h3>
+            <h3 id="some">some</h3>
+            <h3 id="tips">tips?</h3>
+        </div>
+
+        <h3 id="clickcircle">click the moving circle</h3>
+
     </div>
+
+<img id="coloredbackground" src="media/images/fullscreensun.JPEG">
+<img id="sun" src="media/images/sun.PNG">
+
+<div id="secondpage">
+    <h1 id="always">YOU HAVE ALWAYS BEEN CREATIVE</h1>
+
+    <div id="secondphrases">
+        <h3 id="hair">from the way you style <br>your hair or outfit</h2>
+        <h3 id="notjust">creativity is not just painting and drawing</h3>
+        <h3 id="expression">creativity is expression</h3>
+        <h3 id="identity">creativity is identity</h3>
+        <h3 id="master">no need to master the skill, have fun!</h3>
+        <h3 id="galaxy">creativity is an endless galaxy</h3>
+        <h3 id="unique">everyone is creative in their own unique way and SO ARE YOU</h3>
+    </div>
+
+</div>
+
+<div id="restart"></div>
+<h1 id="clickrestart">restart</h1>
 
     <!-- linking to our jquery code -->
     <script src="js/intro.js"></script>
